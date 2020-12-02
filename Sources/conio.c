@@ -46,3 +46,13 @@ char getche(void)
 {
   return getch_(1);
 }
+
+char _getch(void)
+{
+    return getch();
+}
+
+char _getche()
+{
+    return getche();
+}
