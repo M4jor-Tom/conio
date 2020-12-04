@@ -1,3 +1,5 @@
+#if !__has_include(<conio.h>)
+
 #include <termios.h>
 #include <stdio.h>
 
@@ -56,3 +58,5 @@ char _getche()
 {
     return getche();
 }
+
+#endif

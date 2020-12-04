@@ -1,3 +1,7 @@
+#if __has_include(<conio.h>)
+#include <conio.h>
+#else
+
 #include <termios.h>
 #include <stdio.h>
 
@@ -23,3 +27,5 @@ char _getch(void);
 
 /* Read 1 character with echo */
 char _getche(void);
+
+#endif
