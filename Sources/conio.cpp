@@ -49,6 +49,10 @@ char getche(void)
   return getch_(1);
 }
 
+#endif
+
+#ifndef _MSC_VER 
+
 char _getch(void)
 {
     return getch();
@@ -58,5 +62,5 @@ char _getche()
 {
     return getche();
 }
-
-#endif
+ 
+#endif 
