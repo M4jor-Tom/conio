@@ -21,13 +21,13 @@ char getch(void);
 char getche(void);
 
 #endif
-
+/*
 #ifndef _MSC_VER 
  
-/* Read 1 character without echo */
+/* Read 1 character without echo *
 char _getch(void);
 
-/* Read 1 character with echo */
+/* Read 1 character with echo *
 char _getche(void);
  
-#endif 
+#endif */
